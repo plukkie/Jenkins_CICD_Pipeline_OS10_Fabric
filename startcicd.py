@@ -825,7 +825,7 @@ def get_ansible_inventory ( ):
                 else:
                     print('Could not find fabric with leaf or spine names.')
                     print('All ansible host IP addresses are returned.')
-                    obj[ip]['type'] = 'unknown'
+                    obj['hosts'][ip]['type'] = 'unknown'
 
         obj['leafcnt'] = leafcnt
         obj['spinecnt'] = spinecnt
