@@ -876,7 +876,7 @@ def check_ztp_finish ( addresslist):
     time.sleep(2)
     for ip in hosts:
 
-        if hosts[ip] != 'unknown':
+        if hosts[ip]['type'] != 'unknown': #Only check ztp status of fabric nodes (spine/leaf)
             checkfile = ip + reportfilesuffix
             url = ztp_finish_base_url + '/' + checkfile
             urltuple = ( url, {} )
