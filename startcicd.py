@@ -909,6 +909,9 @@ def check_ztp_finish ( addresslist):
 ####  MAIN PROGRAM #####
 ########################
 
+# If report back with 'proceed = ....', the program should exit immediatly
+# Else Jenkins concludes wrong feedback.
+
 
 settings = readsettings ( settingsfile ) #Read settings to JSON object
 
