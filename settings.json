@@ -16,7 +16,7 @@
 		},
 		"common" : {
 			"slot_syntax"   : "1/1",
-			"interlinknet" : "",
+			"interlinknet" : "192.168.1.0",
 			"loopback0net" : "",
 			"loopback1net" : "",
 			"loopback2net" : "",
