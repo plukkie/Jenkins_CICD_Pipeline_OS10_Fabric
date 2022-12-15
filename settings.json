@@ -4,7 +4,7 @@
 			"routerid" : "10.0.2.1",
 			"dhcpsource" : "192.168.0.1",
 			"vtepip" : "10.10.10.1",
-			"as" : 65501,
+			"as" : 64625,
 			"nameprefix" : "OS10-LEAF-",
 			"lacp_pcs" : [ 10 ],
 			"vlti-Portchannel" : 100
