@@ -70,7 +70,7 @@
 				},
 				"border" : {
 					"name"  : "Enterprise SONiC 3.5.2", 
-					"count" : 4,
+					"count" : 2,
 					"pos"   : { "x" : -250, "y" : -200 },
 					"mac" 	: { "base" : "cc:bb:aa:", "start" : 31 },
 					"mgtport" : { "adapter_number" : 0, "port_number" : 0 },
@@ -80,7 +80,7 @@
 				},
 				"spine" : {
 					"name"  : "Dell EMC OS10 S5232F-10.5.3.4.108",
-					"count" : 2,
+					"count" : 4,
 					"pos"   : { "x" : 100, "y" : -200 },
 					"mac" 	: { "base" : "aa:bb:cc:", "start" : 21 },
 					"vlti"	: { "count" : 0, "1st_adapter_number" : 8, "adapterstep" : 1,"port" : 0, "portstep" : 0 },
