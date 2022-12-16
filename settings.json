@@ -7,7 +7,8 @@
 			"as" : 64625,
 			"nameprefix" : "OS10-LEAF-",
 			"lacp_pcs" : [ 10 ],
-			"vlti-Portchannel" : 100
+			"vlti-Portchannel" : 100,
+			"vltinet" : "192.168.168.0"
 		},
 		"spine" : {
 			"routerid" : "10.0.1.1",
