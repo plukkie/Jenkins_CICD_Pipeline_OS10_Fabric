@@ -29,7 +29,8 @@
 			"ipv4mask"     : "24",
 			"oobmgtstart"  : "10.204.11.155",
 			"bordersubnet" : "2.0.1.0",
-			"borderas"     : 65000
+			"borderas"     : 65000,
+			"ntp"          : [  10.204.11.135 ]
 		}
 	},
 	"gns3"	: {
