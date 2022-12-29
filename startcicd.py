@@ -977,6 +977,7 @@ if 'gns' in urltuple[2]['runtype'] and 'start' in urltuple[0]: #Nodes are starte
 
     if inventory == '{}': #Not able to create inventory, lets wait maximum timeout for nodes to start 
         print('proceed = Wait') #used by jenkins
+        sys.exit()
     else: #Check startup startup status of nodes
         t1 = datetime.strptime((datetime.now()).strftime("%H:%M:%S"), "%H:%M:%S")
         print()
